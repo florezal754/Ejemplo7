@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+
+ <title>Ejercicio 3: realizar un HTML con su estructura adecuada sobre programación</title>
+ <meta charset="utf-8">
+ <meta name="description" content="Este es un documento HTML5"> 
+ 
+ <link rel="stylesheet" href="css/estilos.css" type="text/css">
+ 
+</head>
+<br>
+
+<body>
+ <header>
+  <h1>programming in the twenty-first century</h1>
+ </header>
+ 
+ <nav>
+ <!-- A href: crear un enlace -->
+ <a href="index.html" target="_blank">Principal</a> |
+ <a href="fotos.html" target="_blank">Fotos</a> |
+ <a href="https://prog21.dadgum.com/" target="_blank"><mark>Proyecto</mark></a> |
+ <a href="contacto.html">Contacto</a> 
+</nav>
+<br>
+
+ <main>
+  <section>
+   <div class="article">
+   <article>
+    <header>
+     <h3>The Recovering Programmer</h3> 	
+	 <!-- TIME: incluye "datetime" y representa una fecha en formato ordenador -->
+     <time datetime="2020-11-24" pubdate>publicado 24-11-2020 </time>
+	</header>
+	 <!-- MARK: resalta un texto // CITE: representa el autor o título de la obra -->
+	<p>I wrote the <mark>first draft</mark> of this in 2007, and I thought the title would be the name of my blog. But I realized I had a backlog of more tech-heavy topics that I wanted to get out of my system. I think I've finally done that, so I'm going back to the original entry I planned to write.<br>
+	<cite><small>James Hague</small></cite></p>
+</article>
+<br>
+   <article>
+    <header>
+     <h3>Purely Functional Retrogames, Part 1</h3> 	
+     <time datetime="2020-11-24" pubdate>publicado 24-11-2020 </time>
+	</header>
+	<!-- CODE: representa código de programación, se usa junto con "pre" -->
+	<pre>
+	  <code>
+	    <code>
+                function cambiarColor() {
+                        document.body.style.backgroundColor = "#0000FF";
+                }
+                document.addEventListener("click", cambiarColor);
+      </code>	  
+	 </pre>
+   </article>
+  </div>
+<br>
+   <div class="mail">
+        <!-- Con MAILTO y PING -->
+        <address>London, UK</address>
+        <small>&copy; 2020 <a href="mailto:info@jameshague.com">James Hague</a></small><br><br>
+    Please, click <a href="PDFs/cleancode.pdf" target="blank" ping="http://www.formasterminds.com/control.php" download>here</a> to download this book which  I truly recommend for programming dreamers 
+</div>
+<br/>
+   <aside>
+   </aside>
+ <div class="address">
+ <footer>
+       <!-- ADDRESS:  representa información de contacto //  SMALL:  representa letra pequeña  --> 
+        <address>Barcelona, España</address>
+        <small>&copy; Derechos Reservados 2020</small>
+ </footer> 
+ </div>
+  </section>
+ </main>
+ 
+</body>
+</html>
